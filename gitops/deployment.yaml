@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: github-actions-lab
-          image: ghcr.io/amarpal-singh5/github-actions-lab:4fc77c80c596a38fd09dfb5f1ac172c6c04804c7
+          image: ghcr.io/amarpal-singh5/github-actions-lab:70c6ebf33d3b6dc1efe14d3d56a0b6c3f179706c
           ports:
             - containerPort: 5000
 
