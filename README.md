@@ -1,29 +1,23 @@
-GitOps CI/CD Pipeline with GitHub Actions, ArgoCD & Kubernetes
-📌 Overview
-This project demonstrates a complete GitOps-based CI/CD pipeline using:
-GitHub Actions (CI automation)
-Docker + GitHub Container Registry (GHCR)
-ArgoCD (GitOps continuous delivery)
-Kubernetes (Kind local cluster)
-The system follows a Git as the single source of truth model where all deployments are driven through Git commits.
+# GitOps CI/CD Platform with GitHub Actions, ArgoCD & Kubernetes
 
-🏗️ Architecture
-CI/CD + GitOps Flow
-Developer Push
-      ↓
-GitHub Repository
-      ↓
-GitHub Actions (CI)
-  - Build Docker Image
-  - Push to GHCR
-  - Update GitOps Manifest
-  - Commit back to Git
-      ↓
-Git Repository (GitOps State)
-      ↓
-ArgoCD (CD Controller)
-      ↓
-Kubernetes Cluster (Kind)
-      ↓
-Running Application
+A production-style CI/CD and GitOps pipeline that automates building, containerizing, and deploying a Python application to Kubernetes using GitHub Actions, GitHub Container Registry (GHCR), and ArgoCD.
+
+This project demonstrates a complete end-to-end software delivery workflow used in modern platform engineering environments.
+
+---
+
+## 🧭 Architecture Overview
+
+```text
+Developer
+   ↓
+GitHub (Source Code)
+   ↓
+GitHub Actions (CI Pipeline)
+   ↓
+GHCR (Container Registry)
+   ↓
+ArgoCD (GitOps Controller)
+   ↓
+Kubernetes Cluster
 
