@@ -9,4 +9,4 @@ resources:
 images:
 - name: ghcr.io/amarpal-singh5/kubernetes-gitops-platform
   newName: ghcr.io/amarpal-singh5/kubernetes-gitops-platform
-  newTag: d5a5ad556a4ad1e162e79360e327a1a4b7f3c656
+  newTag: bdb9e061c1d4f6a6987d8d732b02b128dbcf2e3e
