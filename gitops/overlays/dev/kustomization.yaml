@@ -3,9 +3,10 @@ kind: Kustomization
 
 # Pull down the foundation blueprints automatically
 resources:
-  - ../../base
+- ../../base
 
 # Explicitly tracking image tag patches natively via Kustomize CLI engine
 images:
-  - name: ghcr.io/amarpal-singh5/kubernetes-gitops-platform
-    newTag: latest
+- name: ghcr.io/amarpal-singh5/kubernetes-gitops-platform
+  newName: ghcr.io/amarpal-singh5/kubernetes-gitops-platform
+  newTag: d5a5ad556a4ad1e162e79360e327a1a4b7f3c656
